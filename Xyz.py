@@ -1,6 +1,6 @@
-import os,sys
-os.system("gitpull")
+import os, sys
+os.system("git pull")
 try:
-_import_("Encrypt_enc").Xyz()
+    __import__("Encrypt_enc").XYZ()
 except Exception as e:
-exit(str(e))
+    exit(str(e))
